@@ -59,20 +59,15 @@ h1{
 
 
 .image {
+  flex-basis: 55%;
   padding-left: 140px;
   position: relative;
   left: 5%;
-  display: flex;
-  object-fit: cover;
-  object-position: bottom;
-
 }
 
 .headshot {
   border-radius: 10%;
-  width: 100%;
-  max-width: 500px;
-  height: auto;
+  max-width: 100%
   
 }
 
