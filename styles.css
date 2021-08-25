@@ -70,7 +70,9 @@ h1{
 
 .headshot {
   border-radius: 10%;
-  width: 25vw;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
   
 }
 
