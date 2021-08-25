@@ -1,0 +1,423 @@
+/* HOME PAGE CSS STYLING */
+.navbar {
+    background-color:white;
+    overflow: hidden;
+  }
+
+.navbar a {
+  float: left;
+  color: #715d8d;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.navbar a:hover {
+    border-bottom: 3px solid #715d8d;
+  }
+  
+.navbar a.active {
+    border-bottom: 3px solid #715d8d;
+  }
+
+.headshot {
+    width: 350px;
+    height: auto;
+    border-radius: 10%;
+    position: absolute;
+    left: 250px;
+}
+
+.headshot:hover {
+  box-shadow:5px 5px 15px -2px #715d8d;
+}
+
+h1{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 30pt;
+    text-align: center;
+    position: absolute;
+    left: 775px;
+}
+
+h2{
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20pt;
+    text-align: center;
+    position: absolute;
+    left: 817px;
+    bottom: 425px;
+}
+
+p {
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+    position: absolute;
+    width: 550px;
+    left: 670px;
+    bottom: 230px;
+}
+
+.resume {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-size: 10pt;
+  position: absolute;
+  width: 90px;
+  height: 35px;
+  left: 900px;
+  bottom: 190px;
+  text-decoration: none;
+  border: 2.5px solid #715d8d;
+  transition-duration: 0.4s;
+  
+}
+
+.resume:hover {
+  color: white;
+  background-color: #715d8d;
+  box-shadow:5px 5px 15px -2px #715d8d;
+}
+
+/* PROJECTS PAGE CSS STYLING */
+
+
+.portal {
+    width: 350px;
+    height: auto;
+    border-radius: 7%;
+    position: absolute;
+    left: 50px;
+    bottom: 390px;
+}
+
+.title1 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 600px;
+  font-size: 15pt;
+  position: absolute;
+  left: 415px;
+  bottom: 550px;
+}
+
+.italics1 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 10pt;
+  position: absolute;
+  left: 415px;
+  bottom: 530px;
+}
+
+.list1 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 10pt;
+  position: absolute;
+  left: 400px;
+  bottom: 450px;
+  width: 850px;
+}
+
+.learn1 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    font-size: 10pt;
+    position: absolute;
+    width: 90px;
+    height: 35px;
+    left: 426px;
+    bottom: 420px;
+    text-decoration: none;
+    border: 2.5px solid #715d8d;
+    transition-duration: 0.4s;
+  }
+  
+  .learn1:hover {
+    color: white;
+    background-color: #715d8d;
+    box-shadow:5px 5px 15px -2px #715d8d;
+  }
+
+  .project1 {
+    border: 2.5px solid #715d8d;
+    height: 239px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 110px;
+    transition-duration: 0.4s;
+  }
+
+  .project1:hover {
+    box-shadow:5px 5px 15px -2px #715d8d;
+  }
+  
+/* PROJECT 2 STYLING */
+
+.hackathon {
+  width: 350px;
+  height: auto;
+  border-radius: 7%;
+  position: absolute;
+  left: 50px;
+  bottom: 125px;
+}
+
+.title2 {
+font-family: 'Libre Franklin', sans-serif;
+font-weight: 600px;
+font-size: 15pt;
+position: absolute;
+left: 415px;
+bottom: 268px;
+}
+
+.italics2 {
+font-family: 'Libre Franklin', sans-serif;
+font-size: 10pt;
+position: absolute;
+left: 415px;
+bottom: 250px;
+}
+
+.list2 {
+font-family: 'Libre Franklin', sans-serif;
+font-size: 10pt;
+position: absolute;
+left: 400px;
+bottom: 170px;
+width: 850px;
+}
+
+.learn2 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-size: 10pt;
+  position: absolute;
+  width: 90px;
+  height: 35px;
+  left: 426px;
+  bottom: 140px;
+  text-decoration: none;
+  border: 2.5px solid #715d8d;
+  transition-duration: 0.4s;
+}
+
+.learn2:hover {
+  color: white;
+  background-color: #715d8d;
+  box-shadow:5px 5px 15px -2px #715d8d;
+}
+
+.project2 {
+  border: 2.5px solid #715d8d;
+  height: 223px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 25px;
+  margin-right: 110px;
+  transition-duration: 0.4s;
+}
+
+.project2:hover {
+  box-shadow:5px 5px 15px -2px #715d8d;
+}
+
+/* PROJECT 3 STYLING */
+
+.hope {
+  width: 205px;
+  height: auto;
+  border-radius: 7%;
+  position: absolute;
+  left: 50px;
+  bottom: -150px;
+}
+
+.title3 {
+font-family: 'Libre Franklin', sans-serif;
+font-weight: 600px;
+font-size: 15pt;
+position: absolute;
+left: 273px;
+bottom: 5px;
+}
+
+.italics3 {
+font-family: 'Libre Franklin', sans-serif;
+font-size: 10pt;
+position: absolute;
+left: 273px;
+bottom: -14px;
+}
+
+.list3 {
+font-family: 'Libre Franklin', sans-serif;
+font-size: 10pt;
+position: absolute;
+left: 260px;
+bottom: -95px;
+width: 850px;
+}
+
+.learn3 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-size: 10pt;
+  position: absolute;
+  width: 90px;
+  height: 35px;
+  left: 285px;
+  bottom: -125px;
+  text-decoration: none;
+  border: 2.5px solid #715d8d;
+  transition-duration: 0.4s;
+}
+
+.learn3:hover {
+  color: white;
+  background-color: #715d8d;
+  box-shadow:5px 5px 15px -2px #715d8d;
+}
+
+.project3 {
+  border: 2.5px solid #715d8d;
+  height: 223px;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-left: 25px;
+  margin-right: 110px;
+  transition-duration: 0.4s;
+}
+
+.project3:hover {
+  box-shadow:5px 5px 15px -2px #715d8d;
+}
+
+/* PROJECT 4 STYLING */
+
+.personalpro {
+  width: 350px;
+  height: auto;
+  border-radius: 7%;
+  position: absolute;
+  left: 50px;
+  bottom: -400px;
+}
+
+.title4 {
+font-family: 'Libre Franklin', sans-serif;
+font-weight: 600px;
+font-size: 15pt;
+position: absolute;
+left: 415px;
+bottom: -280px;
+}
+
+.italics4 {
+font-family: 'Libre Franklin', sans-serif;
+font-size: 10pt;
+position: absolute;
+left: 415px;
+bottom: -300px;
+}
+
+.list4 {
+font-family: 'Libre Franklin', sans-serif;
+font-size: 10pt;
+position: absolute;
+left: 405px;
+bottom: -335px;
+width: 850px;
+}
+
+.learn4 {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 400;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-size: 10pt;
+  position: absolute;
+  width: 90px;
+  height: 35px;
+  left: 427px;
+  bottom: -365px;
+  text-decoration: none;
+  border: 2.5px solid #715d8d;
+  transition-duration: 0.4s;
+}
+
+.learn4:hover {
+  color: white;
+  background-color: #715d8d;
+  box-shadow:5px 5px 15px -2px #715d8d;
+}
+
+.project4 {
+  border: 2.5px solid #715d8d;
+  height: 202px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-right: 110px;
+  transition-duration: 0.4s;
+}
+
+.project4:hover {
+  box-shadow:5px 5px 15px -2px #715d8d;
+}
+
+
+/* FOOTER CSS STYLING */
+footer {
+  position: fixed;
+  right: 0;
+  bottom:0;
+  left:0;
+  background-color: #715d8d;
+  text-align: center;
+  padding-bottom: 0.5px;
+
+}
+
+ .connect {
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 600;
+  font-size: 20pt;
+  color: white;
+  margin-right: 1.6em;
+  margin-bottom: 0.1em;
+  margin-top: 0.4em;
+}
+
+.fa-linkedin-in, .fa-envelope, .fa-github, .fa-file {
+  font-size: 30px;
+  color: white;
+  margin-right: 1em;
+  margin-bottom: 0.3em;
+  text-decoration: none;
+}
+
+.fa-linkedin-in:hover, .fa-envelope:hover, .fa-github:hover, .fa-file:hover{
+  opacity: 0.7;
+}
