@@ -1,5 +1,11 @@
 html{
   scroll-behavior: smooth;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  margin: 0;
 }
 
 *{
@@ -23,6 +29,7 @@ html{
   font-weight: 600;
   text-decoration: none;
   font-size: 25px;
+  margin: 7px;
 }
 
 .navbar a:hover {
@@ -44,9 +51,9 @@ h1{
   padding-right: 10%;
 }
 
+
 .maincontainer{
 
-  display: flex;
   align-items: center;
   width: 90%;
   padding-right: 40px;
@@ -59,14 +66,16 @@ h1{
 
 .image {
   flex-basis: 55%;
-  padding-left: 140px;
+  padding-left: 12%;
   position: relative;
   left: 5%;
+
 }
 
 .headshot {
   border-radius: 10%;
-  max-width: 100%
+  max-width: 100%;
+
   
 }
 
@@ -125,12 +134,6 @@ p{
   --clr-gray-light: #b0bec5;
 }
 
-
-.project-body {
-  color: var(--clr-gray);
-  margin: 2rem;
-}
-
 .wrapper-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, 20rem);
@@ -142,7 +145,6 @@ p{
   box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
   background-color: white;
   text-align: center;
-  align-items: center;
   border-radius: 1rem;
   position: relative;
   margin: 0.5rem;
@@ -170,7 +172,6 @@ p{
 
 em {
   text-align: center;
-
 }
 
 .description {
@@ -195,6 +196,7 @@ em {
   border: 2.5px solid #715d8d;
   transition-duration: 0.4s;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -203,17 +205,18 @@ em {
   box-shadow:5px 5px 15px -2px #715d8d;
   }
 
+body {
+  min-height: 100vh;
+}
 
 /* FOOTER CSS STYLING */
 footer {
-  position: fixed;
-  right: 0;
-  bottom:0;
-  left:0;
+  position: sticky;
+  top: 100%;
   background-color: #715d8d;
   text-align: center;
   padding-bottom: 0.5px;
-
+  padding-top: 1px;
 }
 
  .connect {
