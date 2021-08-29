@@ -1,4 +1,3 @@
-/* HOME PAGE CSS STYLING */
 html{
   scroll-behavior: smooth;
 }
@@ -45,7 +44,7 @@ h1{
   padding-right: 10%;
 }
 
-.container{
+.maincontainer{
 
   display: flex;
   align-items: center;
@@ -95,11 +94,6 @@ p{
     text-align: center;
 }
 
-/*.button {
-  float: right;
-  margin: auto;
-  padding-top: 335px ;
-}*/
 
 .resume {
   font-family: 'Libre Franklin', sans-serif;
@@ -124,307 +118,90 @@ p{
   box-shadow:5px 5px 15px -2px #715d8d;
 }
 
-/* PROJECTS PAGE CSS STYLING */
+/*PROJECTS PAGE CSS STYLING*/
 
-/* PROJECT 1 STYLING */
-
-.portal {
-  width: 350px;
-  height: auto;
-  border-radius: 7%;
-  position: absolute;
-  left: 50px;
-  bottom: 390px;
+:root {
+  --clr-gray: #37474f;
+  --clr-gray-light: #b0bec5;
 }
 
-.title1 {
-font-family: 'Libre Franklin', sans-serif;
-font-weight: 600px;
-font-size: 15pt;
-position: absolute;
-left: 415px;
-bottom: 550px;
+
+.project-body {
+  color: var(--clr-gray);
+  margin: 2rem;
 }
 
-.italics1 {
-font-family: 'Libre Franklin', sans-serif;
-font-size: 10pt;
-position: absolute;
-left: 415px;
-bottom: 540px;
+.wrapper-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 20rem);
+  justify-content: center;
 }
 
-.list1 {
-font-family: 'Libre Franklin', sans-serif;
-font-size: 10pt;
-position: absolute;
-left: 400px;
-bottom: 450px;
-width: 850px;
+.container {
+  overflow: hidden;
+  box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+  background-color: white;
+  text-align: center;
+  align-items: center;
+  border-radius: 1rem;
+  position: relative;
+  margin: 0.5rem;
 }
 
-.learn1 {
+.container:hover {
+  box-shadow:5px 5px 15px -2px #715d8d;
+  transition-duration: 0.4s;
+  }
+
+.portfolioimg {
+  align-items: center;
+  height: 12rem;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+em {
+  text-align: center;
+
+}
+
+.description {
+  margin: 1rem;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.btn {
   font-family: 'Libre Franklin', sans-serif;
   font-weight: 400;
-  border-radius: 10px;
+  border-radius: 7px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
   background-color: white;
   text-align: center;
   color: black;
   font-size: 10pt;
-  position: absolute;
-  width: 90px;
-  height: 35px;
-  left: 426px;
-  bottom: 420px;
   text-decoration: none;
   border: 2.5px solid #715d8d;
   transition-duration: 0.4s;
+  margin-bottom: 20px;
 }
 
-.learn1:hover {
+.btn:hover {
   color: white;
   background-color: #715d8d;
   box-shadow:5px 5px 15px -2px #715d8d;
-}
-
-.project1 {
-  border: 2.5px solid #715d8d;
-  height: 239px;
-  border-radius: 10px;
-  margin-top: 30px;
-  margin-left: 25px;
-  margin-right: 110px;
-  transition-duration: 0.4s;
-}
-
-.project1:hover {
-  box-shadow:5px 5px 15px -2px #715d8d;
-}
-
-/* PROJECT 2 STYLING */
-
-.hackathon {
-width: 350px;
-height: auto;
-border-radius: 7%;
-position: absolute;
-left: 50px;
-bottom: 125px;
-}
-
-.title2 {
-font-family: 'Libre Franklin', sans-serif;
-font-weight: 600px;
-font-size: 15pt;
-position: absolute;
-left: 415px;
-bottom: 268px;
-}
-
-.italics2 {
-font-family: 'Libre Franklin', sans-serif;
-font-size: 10pt;
-position: absolute;
-left: 415px;
-bottom: 257px;
-}
-
-.list2 {
-font-family: 'Libre Franklin', sans-serif;
-font-size: 10pt;
-position: absolute;
-left: 400px;
-bottom: 170px;
-width: 850px;
-}
-
-.learn2 {
-font-family: 'Libre Franklin', sans-serif;
-font-weight: 400;
-border-radius: 10px;
-background-color: white;
-text-align: center;
-color: black;
-font-size: 10pt;
-position: absolute;
-width: 90px;
-height: 35px;
-left: 426px;
-bottom: 140px;
-text-decoration: none;
-border: 2.5px solid #715d8d;
-transition-duration: 0.4s;
-}
-
-.learn2:hover {
-color: white;
-background-color: #715d8d;
-box-shadow:5px 5px 15px -2px #715d8d;
-}
-
-.project2 {
-border: 2.5px solid #715d8d;
-height: 223px;
-border-radius: 10px;
-margin-top: 40px;
-margin-left: 25px;
-margin-right: 110px;
-transition-duration: 0.4s;
-}
-
-.project2:hover {
-box-shadow:5px 5px 15px -2px #715d8d;
-}
-
-/* PROJECT 3 STYLING */
-
-.hope {
-width: 205px;
-height: auto;
-border-radius: 7%;
-position: absolute;
-left: 50px;
-bottom: -137px;
-}
-
-.title3 {
-font-family: 'Libre Franklin', sans-serif;
-font-weight: 600px;
-font-size: 15pt;
-position: absolute;
-left: 273px;
-bottom: 5px;
-}
-
-.italics3 {
-font-family: 'Libre Franklin', sans-serif;
-font-size: 10pt;
-position: absolute;
-left: 273px;
-bottom: -14px;
-}
-
-.list3 {
-font-family: 'Libre Franklin', sans-serif;
-font-size: 10pt;
-position: absolute;
-left: 260px;
-bottom: -95px;
-width: 850px;
-}
-
-.learn3 {
-font-family: 'Libre Franklin', sans-serif;
-font-weight: 400;
-border-radius: 10px;
-background-color: white;
-text-align: center;
-color: black;
-font-size: 10pt;
-position: absolute;
-width: 90px;
-height: 35px;
-left: 285px;
-bottom: -125px;
-text-decoration: none;
-border: 2.5px solid #715d8d;
-transition-duration: 0.4s;
-}
-
-.learn3:hover {
-color: white;
-background-color: #715d8d;
-box-shadow:5px 5px 15px -2px #715d8d;
-}
-
-.project3 {
-border: 2.5px solid #715d8d;
-height: 223px;
-border-radius: 10px;
-margin-top: 40px;
-margin-left: 25px;
-margin-right: 110px;
-transition-duration: 0.4s;
-}
-
-.project3:hover {
-box-shadow:5px 5px 15px -2px #715d8d;
-}
-
-/* PROJECT 4 STYLING */
-
-.personalpro {
-width: 350px;
-height: auto;
-border-radius: 7%;
-position: absolute;
-left: 50px;
-bottom: -377px;
-}
-
-.title4 {
-font-family: 'Libre Franklin', sans-serif;
-font-weight: 600px;
-font-size: 15pt;
-position: absolute;
-left: 415px;
-bottom: -280px;
-}
-
-.italics4 {
-font-family: 'Libre Franklin', sans-serif;
-font-size: 10pt;
-position: absolute;
-left: 415px;
-bottom: -300px;
-}
-
-.list4 {
-font-family: 'Libre Franklin', sans-serif;
-font-size: 10pt;
-position: absolute;
-left: 405px;
-bottom: -335px;
-width: 850px;
-}
-
-.learn4 {
-font-family: 'Libre Franklin', sans-serif;
-font-weight: 400;
-border-radius: 10px;
-background-color: white;
-text-align: center;
-color: black;
-font-size: 10pt;
-position: absolute;
-width: 90px;
-height: 35px;
-left: 427px;
-bottom: -365px;
-text-decoration: none;
-border: 2.5px solid #715d8d;
-transition-duration: 0.4s;
-}
-
-.learn4:hover {
-color: white;
-background-color: #715d8d;
-box-shadow:5px 5px 15px -2px #715d8d;
-}
-
-.project4 {
-border: 2.5px solid #715d8d;
-height: 200px;
-border-radius: 10px;
-margin-top: 45px;
-margin-left: 25px;
-margin-right: 110px;
-transition-duration: 0.4s;
-}
-
-.project4:hover {
-box-shadow:5px 5px 15px -2px #715d8d;
-}
+  }
 
 
 /* FOOTER CSS STYLING */
