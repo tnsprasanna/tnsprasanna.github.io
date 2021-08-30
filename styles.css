@@ -57,7 +57,7 @@ h1{
   align-items: center;
   width: 90%;
   padding-right: 40px;
-  margin-top: 1px;
+  margin-top: -20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -75,8 +75,6 @@ h1{
 .headshot {
   border-radius: 10%;
   max-width: 100%;
-
-  
 }
 
 .headshot:hover {
@@ -103,6 +101,9 @@ p{
     text-align: center;
 }
 
+.text {
+  margin-top: 12px;
+}
 
 .resume {
   font-family: 'Libre Franklin', sans-serif;
