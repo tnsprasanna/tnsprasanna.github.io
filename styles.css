@@ -66,10 +66,9 @@ h1{
 
 .image {
   flex-basis: 55%;
-  padding-left: 12%;
+  padding-left: 15%;
   position: relative;
-  left: 5%;
-
+  left: 3%;
 }
 
 .headshot {
